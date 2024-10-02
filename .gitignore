@@ -1,0 +1,20 @@
+# Python файлы и папки
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Логи
+*.log
+
+# Конфигурации IDE
+.idea/
+.vscode/
+
+# Виртуальные окружения
+venv/
+*.env
+
+# Docker
+docker-compose.override.yml
