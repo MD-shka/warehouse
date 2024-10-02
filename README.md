@@ -16,7 +16,8 @@ API для работы со складом.
 - Docker
 
 ## Установка и запуск
-1. Склонировать репозиторий командой: "git clone ."
+1. Склонировать репозиторий командой: 
+    "git clone https://github.com/MD-shka/warehouse.git"
 2. Перейти в папку проекта: "cd warehouse"
 3. Запустить командой: "docker-compose up --build"
 
@@ -25,5 +26,4 @@ API для работы со складом.
 2. Документация Redoc: http://localhost:8000/redoc
 
 ## Тестирование
-1. Запустить тесты командой: "docker-compose exec web pytest"
-2. Проверить покрытие тестами командой: "docker-compose exec web pytest --cov=app"
+ Запустить тесты командой: "docker-compose exec web pytest"
